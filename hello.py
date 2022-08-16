@@ -1,3 +1,5 @@
 print("하이")
 print("헬로우")
 print("월드")
+print("반가워")
+print("파이썬")
