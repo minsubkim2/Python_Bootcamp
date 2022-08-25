@@ -1,12 +1,19 @@
-# 램덤 함수 - 무작위로 숫자를 뽑아낸다
-from random import *
+# 문자열
+sentence = '나는 소년입니다.'
+print(sentence)
+sentence2 = "파이썬은 쉬워요"
+print(sentence2)
+sentence3 = """ 
+나는 소년이고,
+파이썬은 쉬워요
+"""
+# """  포함해서 4줄이 찍힌다.
+print(sentence3)
 
-print(random()) # 0.0 ~ 1.0 미만의 임의이 값 생성
-print(random() * 10) # 0.0 ~ 10.0 미만의 임의의 값 생성
-print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
-print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
-print(int(random() * 10)) # 0 ~ 10 미만의 임의의 값 생성
-print(int(random() * 10) + 1) #1 ~ 10 미만의 임의 값 생성
-print(int(random() * 45) + 1) #1 ~ 45 미만의 임의 값 생성
+# 슬라이싱 - 필요한 정보만 가져온다
+jumin = "930330-1234567" 
 
-print(randrange(1, 46)) # 1 ~45 미만의 임의이 값 생성
+print("성별 : " + jumin[7])
+print("연 : " + jumin[0:2]) # 0 부터 2 직전까지 
+print("월 : " + jumin[2:4])
+print("일 : " + jumin[4:6])
